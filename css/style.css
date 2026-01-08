@@ -1,0 +1,183 @@
+.font-work-sans {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+/* shared styles */
+header {
+    background-image: url('../images/banner/banner3.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 808px;
+    display: flex;
+    align-items: center;           /* vertical centering */
+    justify-content: flex-end; 
+}
+.btn {
+    border: none;
+    border-radius: 5px;
+    color: #FFFFFF;
+    background-color: #F15B22;
+    padding: 20px 25px;
+    font-size: 20px;
+    font-weight: 600; /* semi-bold */
+    cursor: pointer;
+}
+.btn-white {
+    color: #F15B22;
+    background-color: #FFFFFF;
+}
+.h3-style {
+    font-size: 40px;
+    font-weight: bold;
+    color: #151414;
+}
+.h4-style {
+    font-size: 30px;
+    font-weight: bold;
+    color: #151414;
+}
+.h3-white {
+    font-size: 40px;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+.icons {
+    width: 90px;
+    height: 90px;
+}
+
+/* main styles */
+#banner-about {
+    max-width: 525px;
+    text-align: right;
+    margin-right: 230px;
+}
+#banner-about h2 {
+    font-size: 65px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+#banner-about .about-info p {
+    font-size: 16px;
+    color: #FFFFFF;
+    line-height: 26px;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+
+
+#failure {
+    margin-top: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 87px;
+}
+#failure .pic {
+    width: 570px;
+    height: 720px;
+    margin-top: 130px;
+}
+
+.info-about p {
+    font-size: 16px;
+    margin-top: 24px;
+    margin-bottom: 16px;
+    line-height: 26px;
+    text-align: left;
+    max-width: 415px;
+}
+.info-check {
+    margin-top: 16px;
+}
+.info-check ul li {
+    font-size: 16px;
+    color: #444343;
+    line-height: 26px;
+    padding: 8px 0;
+}
+#failure .info {
+    margin-top: 370px;
+}
+
+
+#my-plans {
+    max-width: 1140px;
+    margin: 130px auto;
+}
+.my-plans-title h3 {
+    text-align: center;
+}
+#my-plans .my-plans-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    /* gap: 65px; */
+}
+.my-plans-container .plan-item p {
+    font-size: 25px;
+    font-weight: medium;
+    color: #737272;
+}
+
+#mindset {
+    background-image: url(../images/watch.png), url(../images/gradient2.png);
+    background-position: center, ;
+    width: 1140px;
+    height: 300px;
+    margin: 125px auto;
+}
+#mindset .mindset-info {
+    max-width: 460px;
+    padding-left: 65px;
+    padding-top: 50px;
+}
+
+footer {
+    background-color: #000000;
+    height: 577px;
+}
+footer .footer-info {
+    display: flex;
+    margin: 0 auto;
+    gap: 330px;
+    padding: 130px 885px 130px 230px;
+}
+footer .footer-info .future p {
+    font-size: 15px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+    line-height: 26px;
+    width: 485px;
+}
+footer .footer-info .social {
+    max-width: 175px;
+    display: flex;
+    gap: 17px;
+}
+footer .footer-info .future {
+    max-width: 485px;
+    height: 317px;
+}
+footer .footer-info .subscribe {
+    max-width: 325px;
+    height: 205px;
+    align-items: flex-end;
+}
+#email-box {
+    width: 325px;
+    height: 65px;
+    border: 1px solid gray;
+    border-radius: 8px;
+    margin: 16px auto 30px;
+    font-size: 18px;
+}
